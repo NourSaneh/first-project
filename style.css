@@ -31,6 +31,7 @@ html {
 
 .card-desktop {
     border-radius: 10px 0 0 10px;
+    height: 550px;
     display: none;
 }
 
@@ -39,8 +40,8 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height  : 370px;
-    padding: 205px;
+    height : 300px;
+    padding: 100px;
     border-radius: 0 0 10px 10px;
 }
 
@@ -94,11 +95,12 @@ html {
 @media(min-width:1440px) {
     .card {
         flex-direction: row;
-        width: 1000px;
-        height: 450px;
+        width: 500px;
+        height: 550px;
     }
     .card-body {
-        height: 450px;
+        height: 550px;
+        width: 450px;
         border-radius: 0 10px 10px 0;
     }
     .card-mobile {
