@@ -47,6 +47,7 @@ html {
 
 .side-title {
     letter-spacing: 0.3em;
+    margin-bottom: 0.75rem;
 }
 .title {
     font-size: 2em;
@@ -54,10 +55,11 @@ html {
 }
 
 .info {
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5em;
     color: hsl(228, 12%, 48%);
+    margin-top: 2rem;
 }
 
 .payments {
@@ -90,8 +92,16 @@ html {
     align-items: center;
     justify-content: center;
     gap: 5px;
+    margin-top: 150px;
 }
 
+.btn-text {
+    width: 250px;
+    font-size: 15px;
+    margin-right: 3px;
+}
+.btn-img {
+margin-left: 100px;}
 @media(min-width:1440px) {
     .card {
         flex-direction: row;
